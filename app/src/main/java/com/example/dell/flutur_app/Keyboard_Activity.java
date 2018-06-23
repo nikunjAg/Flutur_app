@@ -18,6 +18,7 @@ public class Keyboard_Activity extends AppCompatActivity {
     private Keyboard mkeyboard;
     private TextView textView;
     private KeyboardView keyboardView;
+    private static final String TAG = "My Message";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,61 +51,61 @@ public class Keyboard_Activity extends AppCompatActivity {
             public void onKey(int primaryCode, int[] keyCodes) {
 
                 if (primaryCode == 1)
-                    Log.d("Key Pressed is ","Q" );
+                    Log.d(TAG,"Key Pressed is Q" );
                 if (primaryCode == 2)
-                    Log.d("Key Pressed is ","W" );
+                    Log.d(TAG,"Key Pressed is W" );
                 if (primaryCode == 3)
-                    Log.d("Key Pressed is ","E" );
+                    Log.d(TAG,"Key Pressed is E" );
                 if (primaryCode == 4)
-                    Log.d("Key Pressed is ","R" );
+                    Log.d(TAG,"Key Pressed is R" );
                 if (primaryCode == 5)
-                    Log.d("Key Pressed is ","T" );
+                    Log.d(TAG,"Key Pressed is T" );
                 if (primaryCode == 6)
-                    Log.d("Key Pressed is ","Y" );
+                    Log.d(TAG,"Key Pressed is Y" );
                 if (primaryCode == 7)
-                    Log.d("Key Pressed is ","U" );
+                    Log.d(TAG,"Key Pressed is U" );
                 if (primaryCode == 8)
-                    Log.d("Key Pressed is ","I" );
+                    Log.d(TAG,"Key Pressed is I" );
                 if (primaryCode == 9)
-                    Log.d("Key Pressed is ","O" );
+                    Log.d(TAG,"Key Pressed is O" );
                 if (primaryCode == 10)
-                    Log.d("Key Pressed is ","P" );
+                    Log.d(TAG,"Key Pressed is P" );
                 if (primaryCode == 11)
-                    Log.d("Key Pressed is ","A" );
+                    Log.d(TAG,"Key Pressed is A" );
                 if (primaryCode == 12)
-                    Log.d("Key Pressed is ","S" );
+                    Log.d(TAG,"Key Pressed is S" );
                 if (primaryCode == 13)
-                    Log.d("Key Pressed is ","D" );
+                    Log.d(TAG,"Key Pressed is D" );
                 if (primaryCode == 14)
-                    Log.d("Key Pressed is ","F" );
+                    Log.d(TAG,"Key Pressed is F" );
                 if (primaryCode == 15)
-                    Log.d("Key Pressed is ","G" );
+                    Log.d(TAG,"Key Pressed is G" );
                 if (primaryCode == 16)
-                    Log.d("Key Pressed is ","H" );
+                    Log.d(TAG,"Key Pressed is H" );
                 if (primaryCode == 17)
-                    Log.d("Key Pressed is ","J" );
+                    Log.d(TAG,"Key Pressed is J" );
                 if (primaryCode == 18)
-                    Log.d("Key Pressed is ","K" );
+                    Log.d(TAG,"Key Pressed is K" );
                 if (primaryCode == 19)
-                    Log.d("Key Pressed is ","L" );
+                    Log.d(TAG,"Key Pressed is L" );
                 if (primaryCode == 20)
-                    Log.d("Key Pressed is ","Z" );
+                    Log.d(TAG,"Key Pressed is Z" );
                 if (primaryCode == 21)
-                    Log.d("Key Pressed is ","X" );
+                    Log.d(TAG,"Key Pressed is X" );
                 if (primaryCode == 22)
-                    Log.d("Key Pressed is ","C" );
+                    Log.d(TAG,"Key Pressed is C" );
                 if (primaryCode == 23)
-                    Log.d("Key Pressed is ","V" );
+                    Log.d(TAG,"Key Pressed is V" );
                 if (primaryCode == 24)
-                    Log.d("Key Pressed is ","B" );
+                    Log.d(TAG,"Key Pressed is B" );
                 if (primaryCode == 25)
-                    Log.d("Key Pressed is ","N" );
+                    Log.d(TAG,"Key Pressed is N" );
                 if (primaryCode == 26)
-                    Log.d("Key Pressed is ","M" );
+                    Log.d(TAG,"Key Pressed is M" );
                 if (primaryCode == -1)
-                    Log.d("Key Pressed is ","BACKSPACE" );
+                    Log.d(TAG,"Key Pressed is BACKSPACE" );
                 if (primaryCode == 100)
-                    Log.d("Key Pressed is ","ENTER" );
+                    Log.d(TAG,"Key Pressed is ENTER" );
 
 
 
