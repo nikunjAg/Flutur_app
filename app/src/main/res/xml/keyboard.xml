@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:keyHeight="10%p">
+
+    <Row>
+        <Key android:codes = "1" android:keyLabel="Q" android:horizontalGap = "1%p"/>
+        <Key android:codes = "2" android:keyLabel = "W" android:horizontalGap ="1%p" />
+        <Key android:codes = "3" android:keyLabel = "E" android:horizontalGap = "1%p"/>
+        <Key android:codes = "4" android:keyLabel = "R" android:horizontalGap = "1%p"/>
+        <Key android:codes = "5" android:keyLabel = "T" android:horizontalGap = "1%p"/>
+        <Key android:codes = "6" android:keyLabel = "Y" android:horizontalGap = "1%p"/>
+        <Key android:codes = "7" android:keyLabel = "U" android:horizontalGap = "1%p"/>
+        <Key android:codes = "8" android:keyLabel = "I" android:horizontalGap = "1%p"/>
+        <Key android:codes = "9" android:keyLabel = "O" android:horizontalGap = "1%p"/>
+        <Key android:codes = "10" android:keyLabel = "P" android:horizontalGap = "1%p"/>
+
+    </Row>
+
+    <Row>
+
+        <Key android:codes="11"  android:keyLabel="A"  android:horizontalGap = "1%p"  />
+        <Key android:codes="12"  android:keyLabel="S"  android:horizontalGap = "1%p"  />
+        <Key android:codes="13"  android:keyLabel="D"  android:horizontalGap = "1%p"  />
+        <Key android:codes="14"  android:keyLabel="F"  android:horizontalGap = "1%p"  />
+        <Key android:codes="15"  android:keyLabel="G"  android:horizontalGap = "1%p"  />
+        <Key android:codes="16"  android:keyLabel="H"  android:horizontalGap = "1%p"  />
+        <Key android:codes="17"  android:keyLabel="J"  android:horizontalGap = "1%p"  />
+        <Key android:codes="18"  android:keyLabel="K"  android:horizontalGap = "1%p"  />
+        <Key android:codes="19"  android:keyLabel="L"  android:horizontalGap = "1%p"  />
+
+    </Row>
+
+    <Row>
+
+        <Key android:codes="20" android:keyLabel="Z"  android:horizontalGap = "1%p"/>
+        <Key android:codes="21" android:keyLabel="X"  android:horizontalGap = "1%p"/>
+        <Key android:codes="22" android:keyLabel="C"  android:horizontalGap = "1%p"/>
+        <Key android:codes="23" android:keyLabel="V"  android:horizontalGap = "1%p"/>
+        <Key android:codes="24" android:keyLabel="B"  android:horizontalGap = "1%p"/>
+        <Key android:codes="26" android:keyLabel="N"  android:horizontalGap = "1%p"/>
+        <Key android:codes="27" android:keyLabel="M"  android:horizontalGap = "1%p"/>
+
+    </Row>
+
+    <Row>
+        <Key android:codes="-1"    android:keyIcon="@drawable/ic_backspace_black_24dp"  android:keyWidth="34%p" android:horizontalGap="4%p"/>
+        <Key android:codes="100"    android:keyLabel="Enter" android:keyWidth="53%p" android:horizontalGap="4%p"/>
+    </Row>
+
+</Keyboard>
