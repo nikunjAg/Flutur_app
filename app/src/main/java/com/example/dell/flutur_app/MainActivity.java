@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView myImage;
     private ViewGroup myView;
     private int _xdelta, _ydelta;
+    private static final String TAG = "My Message";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,10 +72,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-            Log.d("My x : ","value is " + x);
-            Log.d("My y : ","value is " + y);
-            Log.d("My delta x : ","value is " + _xdelta);
-            Log.d("My delta y : ","value is " + _ydelta);
+            Log.d(TAG,"X coordinate value is " + x);
+            Log.d(TAG,"Y coordinate value is " + y);
+            
 
             myView.invalidate();
             return true;
